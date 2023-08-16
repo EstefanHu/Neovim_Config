@@ -13,6 +13,24 @@ return require('packer').startup(function(use)
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
+    use { "ellisonleao/gruvbox.nvim" }
+
+    use({
+        'sainnhe/everforest',
+        as = 'everforest',
+        config = function()
+            vim.cmd('colorscheme everforest')
+        end
+    })
+
+    use {
+        "norcalli/nvim-colorizer.lua",
+        cmd = "ColorizerToggle",
+        config = function()
+            require("colorizer").setup()
+        end,
+    }
+
 	use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 	use('nvim-treesitter/playground')
 	use('theprimeagen/harpoon')
