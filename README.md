@@ -15,4 +15,5 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 
 ### Rip grep [TODO]
 Linux - sudo apt install ripgrep
+
 MacOS - brew install ripgrep
