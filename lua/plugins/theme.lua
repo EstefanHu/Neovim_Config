@@ -1,11 +1,11 @@
 return {
   {
-    "sainnhe/everforest",
+    "KabbAmine/yowish.vim",
     lazy = false,
     priority = 1000,
-    name = "everforest",
+    name = "yowish",
     config = function()
-      vim.cmd.colorscheme("everforest")
+      vim.cmd.colorscheme("yowish")
     end,
   },
 }
