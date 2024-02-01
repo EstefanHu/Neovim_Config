@@ -22,6 +22,7 @@ nvim
 
 ### Nerd Font
 Download from https://www.nerdfonts.com/
+
 mv .otf to `~/.local/share/fonts
 
 ### Rip grep [TODO]
